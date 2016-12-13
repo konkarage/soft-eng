@@ -123,6 +123,5 @@ The nurses/physicians shall be able to accept a test booking.
 #### User story
 
 
-Acquire results
-
+***Acquire results
 Send a message to the lab administrator
