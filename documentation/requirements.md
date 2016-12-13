@@ -76,6 +76,7 @@ The patient shall be able to confirm the order's details.
 ### FR-9
 The patient shall be able to select the datetime and location of the sample's collection.
 #### Description
+During the booking procedure, the patient must be able to choose when and where he wants the test to be executed. The options of the location are either the laboratory or his own place, where, in the case of the latter, the sample is collected by a collection agent.
 #### User priority
 #### Technical difficulty
 #### User story
@@ -102,26 +103,60 @@ The patient shall receive a message when the test results are ready.
 #### User story
 
 ### FR-13
-The user should(non-mandatory) be able to see the nearest to him laboratories.
+The patient shall be able to acquire the results (is download accepted in a FR??)
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
 
 ### FR-14
-The nurses/physicians shall be able to send test results to patients.
+The user should(non-mandatory) be able to see the nearest to him laboratories.
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
 
 ### FR-15
+The nurses/physicians shall be able to send test results to patients.
+#### Description
+#### User priority
+#### Technical difficulty
+#### User story
+
+### FR-16
 The nurses/physicians shall be able to accept a test booking.
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
 
+### FR-17
+The nurses/physicians shall be able to send a message to a patient.
+#### Description
+#### User priority
+#### Technical difficulty
+#### User story
 
-//Acquire results
-//Send a message to the lab administrator
+### FR-18
+The lab's administrator shall be able to modify the laboratory's profile information. 
+#### Description
+#### User priority
+#### Technical difficulty
+#### User story
+
+### FR-19
+The lab's administrator shall be able to insert or delete a test from the list of the available tests.
+#### Description
+#### User priority
+#### Technical difficulty
+#### User story
+
+### FR-20
+The administrator shall be able to insert or delete a laboratory from the system.
+#### Description
+#### User priority
+#### Technical difficulty
+#### User story
+
+
+Send a message to the lab administrator
