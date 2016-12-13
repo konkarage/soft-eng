@@ -43,7 +43,7 @@ The system should enable users to search for diagnostic laboratories according t
 #### User story
 
 ### FR-5
-The user shall be able to see available tests provided by each lab.
+The user shall be able to see the available tests provided by each lab.
 #### Description
 When a user chooses a specific lab, the system should display a list with all the tests provided. These may refer to complete blood count, cholesterol and glucose analyses, urinalysis, etc. 
 #### User priority
@@ -112,6 +112,7 @@ The patient shall be able to acquire the results (is download accepted in a FR??
 ### FR-14
 The user should(non-mandatory) be able to see the nearest to him laboratories.
 #### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
 #### User priority
 #### Technical difficulty
 #### User story
