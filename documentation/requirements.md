@@ -4,7 +4,7 @@
 
 ### FR-1
 The users shall be able to login and logout of the system. (define login and logout in glossary)
-#### Description
+### Description
 Each user must enter the system by typing his own username and password, which are created during the sign up (define sign up in glossary) process. Moreover, the system must provide him with a logout option. When a user enters the system, he is directed into the corresponding home page, according to the type of user he belongs to. 
 ### User priority
 (5/5) 
