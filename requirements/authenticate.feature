@@ -12,8 +12,4 @@ Feature: authentication
 		When I submit wrong <username> or <password> at the login screen
 			| user | password |
 		Then I should see a message telling me "Wrong username or password"
-		
-	Scenario: account not created
-		Given that I have not created an account yet
-		When I try to sign in
-		Then I should see a message telling me "You must create an account first"
+	
