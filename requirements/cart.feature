@@ -5,6 +5,7 @@ Feature: cart
 		And I have selected it 
 		When I add it to the cart
 		Then I should have the option to view it in the cart 
+		And I should have the option to remove it from cart
 		And I should be prompted to make an appointment
 
 	Scenario: update cart
