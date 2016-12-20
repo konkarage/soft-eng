@@ -26,3 +26,9 @@ Feature: test results
 		And I am in a patient's profile
 		When I upload the test results
 		Then I see a message "Not supported file format. Please upload a .pdf file"
+		
+	
+	Scenario: send results message
+		Given that I am logged in as lab
+		When I upload results to a patients profile
+		Then I should have the option to send him a message to inform him that results are ready
