@@ -5,6 +5,7 @@ Feature: account
 		Given that I navigated the account creation page
 		When I submit my username, password and personal information
 		Then I should see my profile
+		And I should have the option to modify my personal information
 		
 	Scenario: the password is too weak
 		Given that I have
