@@ -36,6 +36,11 @@ Feature: appointment
 		And I receive a confirmation message with the appointment's details
 		And I have the option to view the appointment
 		And I have the option to cancel the appointment
+		
+	Scenario: cannot book appointment
+		Given that I have an empty cart
+		When I submit an appointment
+		Then I should see a message saying "Cannot book an appointment. You must select at least one test."
 
 	Scenario: cancel appointment
 		Given that I have submitted an appointment 
