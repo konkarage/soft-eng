@@ -37,6 +37,11 @@ Feature: lab
 	Scenario: Test doesn't exist
 		Given that a test doesn't exist
 		When I try to delete, retrieve or edit it
+		
+	Scenario: send results message
+ 		Given I am logged in as lab
+ 		When I upload the test results to the patient's profile
+ 		Then I have the option to send a message to the patient to inform him that he can retrieve the results
 
 	Scenario: Set test price
 		Given that I have inserted a new test
@@ -59,9 +64,4 @@ Feature: lab
 		When I define a <payment policy> for it
 			| cash | credit card | both |
 		Then I should see the test
-		
-	Scenario: send results message
-		When I upload the test results to the patient's profile
-		Then I have the option to send a message to the patient to inform him that he can retrieve the results
-
-
+	
