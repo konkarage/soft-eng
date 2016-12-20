@@ -17,7 +17,7 @@ Feature: suggest
 		When I am logged in as patient
 		Then I can see the message "There are no labs near you"
 
-	Scenario: lab tests by alphabet
+	Scenario: see lab tests alphabetically
 		Given that I am logged in as patient
 		When I select the option "Lab Tests by Alphabet"
 		And I select a letter 
@@ -25,7 +25,7 @@ Feature: suggest
 		And I have the option to view a test's details
 		And I have the option to see a list of <labs> that offer this test
 
-	Scenario: lab tests by department 
+	Scenario: see lab tests by department 
 		Given that I am logged in as patient
 		When I select the option "Lab Tests by Department"
 		And I select a department
