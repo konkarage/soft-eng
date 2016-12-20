@@ -27,7 +27,7 @@ Feature: appointment
 		And I have the option to select "Next"
 		And I have the option to select "Cancel"
 
-	Scenario: submit new appointment
+	Scenario: book new appointment
 		Given that I have a cart with tests
 		And I have entered the payment details
 		And I have confirmed the appointmet's details
