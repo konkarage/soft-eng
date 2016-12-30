@@ -159,5 +159,10 @@ The administrator shall be able to insert or delete a laboratory from the system
 #### Technical difficulty
 #### User story
 
+## Use case diagrams
 
-Send a message to the lab administrator
+
+
+## Activity diagrams
+
+
