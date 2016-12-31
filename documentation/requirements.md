@@ -174,7 +174,7 @@ The administrator shall be able to insert or delete a laboratory from the system
 ![activitydiagram2](https://cloud.githubusercontent.com/assets/15689115/21576633/cf8abf44-cf3f-11e6-8ff9-e3137dada62d.jpg)
 
 ### Activity diagram "A patient wants to acquire test results"
-![activity diagram4](https://cloud.githubusercontent.com/assets/15689115/21576643/f686f784-cf3f-11e6-95a4-5c6f427ef92c.jpg)
+![activity diagram4](https://cloud.githubusercontent.com/assets/15689115/21577876/026c56be-cf74-11e6-82f8-b6a6ced32ca3.jpg)
 
 ### Activity diagram "A patient wants to book an appointment"
 ![activitydiagram3](https://cloud.githubusercontent.com/assets/15689115/21577840/6a1c0ed2-cf72-11e6-8b73-09a0257c344f.jpg)
