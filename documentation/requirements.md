@@ -161,7 +161,9 @@ The administrator shall be able to insert or delete a laboratory from the system
 
 ## Use case diagrams
 
+![usecasediagram](https://cloud.githubusercontent.com/assets/15689115/21576614/69db1bd0-cf3f-11e6-94b8-80a54d0a697f.jpg)
 
+![use_case_admin](https://cloud.githubusercontent.com/assets/15689115/21576615/74382ca8-cf3f-11e6-9f3f-3682cdb44c6a.jpg)
 
 ## Activity diagrams
 
