@@ -1,4 +1,5 @@
-# Laballey - User Requirements Document
+# 'Laballey' - An online Diagnostic Lab
+# User Requirements Document
 
 ## Authors
 
@@ -7,7 +8,7 @@
 
 ## Abstract
 
-In this project we specify and analyse the user requirements of our system, a valuable procedure in order to ensure that the system's performance is based on the users' needs. More specifically, after having defined the user requirements, we created feature files, each of which containing scenarios with happy and unhappy paths. Then, two use case diagrams follow, showing all scenarios and the actors that participate in the system. Basic processes of the system are visualized through activity diagrams. A sketch of the system's interface is given by several mockups and storyboards.
+The main objective of this project is to illustrate the user requirements of our system, a valuable procedure in order to ensure that the system's performance is based on the users' needs. More specifically, after having given a detailed description of functional and non-functional requirements, feature files have been created, each of which containing scenarios with happy and unhappy paths. Then, two use case diagrams follow, showing all scenarios and the actors that participate in the system. Basic processes of the system are visualized through activity diagrams. A sketch of the system's interface is given by several mockups and storyboards.
 
 ## Table of Contents
 
