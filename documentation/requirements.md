@@ -143,6 +143,7 @@ The patient must have the option to view each appointment's results and download
 #### Technical priority
 (2/5) The system does not lose its full functionality when this requirement is omitted.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 
 ### FR-14
 The patient should be able to see the nearest to him laboratories.
@@ -225,6 +226,96 @@ The administrator shall be able to receive a message from a lab representative.
 ### Activity diagram "A patient adds a test to cart during an appointment booking"
 ![activity diagram5](https://cloud.githubusercontent.com/assets/15689115/21577842/72e3f872-cf72-11e6-9459-a0d1304f0b8a.jpg)
 
+## Mockups and storyboards
 
+## Non-Functional Requirements
+### NFR-1
+The system shall support end to end public key encryption regarding the exchange of messages and files
+#### Description
+Due the sensitive nature of the information exchanged between the users, all communication between them should be done in an encrypted way, unreadable even by the administrator.
+#### User priority
+(4/5) Many users could be hesitant about using the system without this feature. 
+#### Technical priority
+(4/5) The system will remain fully functional without considering this requirement, but legal issues could be raised.
 
+### NFR-2
+The results of each test should be available in pdf form.
+#### Description
+There users should be able to read the results without converting them. Pdf is the most widely used format for this purpose.
+#### User priority
+(4/5) There are good alternatives, but pdf will providde the most hassle-free experience.
+#### Technical priority
+(1/5) The backbone of the system can be implemented without pdfs in mind.
+
+### NFR-3
+The system's user interface should be implemented according to the Web Content Accessibility Guidelines (WCAG).
+#### Description
+The system should be usable from the widest possible userbase.
+#### User priority
+(4/5) Many of our users could be of above average age, so this requirement is of great importance.
+#### Technical priority
+(5/5) It is of great importance to set the foundation of such a design early on, to avoid massive code restructuring.
+
+### NFR-4
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
+
+### NFR-5
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
+
+### NFR-6
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
+
+### NFR-7
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
+
+### NFR-8
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
+
+### NFR-9
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
+
+### NFR-10
+The patient should be able to see the nearest to him laboratories.
+#### Description
+The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+#### User priority
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
 
