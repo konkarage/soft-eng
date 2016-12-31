@@ -15,15 +15,15 @@ Define any domain-related keywords used in the documents.
 
 Define term 1 ...
 
-**logout*
+**logout**
 
 Define term 2 ...
 
-**sign up*
+**sign up**
 
 Define term 2 ...
 
-**upload*
+**upload**
 
 Define term 2 ...
 
