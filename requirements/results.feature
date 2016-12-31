@@ -4,10 +4,9 @@ Feature: test results
 		Given that I have received the message that the test results are ready
 		When I select the option "My Health Records"
 		And I select the appointment 
-		Then I can see the test results
+		Then I can view the test results
 		And I have the option to download them
 		And I have the option to print them
-		And I have the option to review them
 
 	Scenario: cannot see results
 		Given that I have not received the message that the test results are ready
