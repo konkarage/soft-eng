@@ -13,6 +13,7 @@ In this project we specify and analyse the user requirements of our system, a va
 
 Links to the documents you have created
 
-  1. [Introduction]https://github.com/konkarage/soft-eng/blob/master/documentation/README.md
-  2. [Requirements document]https://github.com/konkarage/soft-eng/blob/master/documentation/requirements.md
+  1. [Introduction](https://github.com/konkarage/soft-eng/blob/master/documentation/README.md)
+  2. [Requirements document](https://github.com/konkarage/soft-eng/blob/master/documentation/requirements.md)
+  3. [Feature files](https://github.com/konkarage/soft-eng/tree/master/requirements)
   3. [Storyboards]
