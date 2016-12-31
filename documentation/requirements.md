@@ -3,97 +3,125 @@
 ## Functional Requirements and User Stories
 
 ### FR-1
-The user shall be able to login and logout of the system. (define login and logout in glossary)
+The user shall be able to login and logout of the system. 
 #### Description
-Each user must enter the system by typing his own username and password, which are created during the sign up (define sign up in glossary) process. Moreover, the system must provide him with a logout option. When a user enters the system, he is directed into the corresponding home page, according to the granted permissions. 
+Each user must enter the system by typing his own username and password, which are created during the sign up process. Moreover, the system must provide him with a logout option. When a user enters the system, he is directed into the corresponding home page, according to the granted permissions. 
 #### User priority
-(5/5) 
-#### Technical difficulty
-(5/5)
+(5/5) Every user must be recognized by the system through a unique username and password. Authentication enables users to have access to all the services and use them in a safe manner.
+#### Technical priority
+(4/5) The full functionality of the system is provided only to authenticated users.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/authenticate.feature
 
 ### FR-2 
 The user shall be able to create a personal account.
 #### Description
 Each user should create a profile with his personal information, i.e. name, address, contact information, insurance details. During this process the username and password for the login procedure are being set.
 #### User priority
-(5/5)
-#### Technical difficulty
-(5/5)
+(5/5) Each user needs his personal information in order to book an appointment, which is the main service the system offers.
+#### Technical priority
+(5/5) During this process the credentials for the login procedure are being created and, thus, it is essential for the system's functionality.    
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/account.feature
 
 ### FR-3
-The user shall be able to modify his personal information. (lexicographic, NF)
+The user shall be able to modify his personal information.
 #### Description
 It is important that each user can view his profile and make changes to information that is no longer valid. 
 #### User priority
-(5/5)
-#### Technical difficulty
-(3/5)
+(4/5) It is important for the user to be able to update invalid personal details in order not to face difficulties when he tries to use the system.
+#### Technical priority
+(2/5) The system is fully functional even if we ommit FR-3.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/account.feature
 
 ### FR-4
-The user shall be able to search for available diagnostic labs.
+The patient shall be able to search for available diagnostic labs.
 #### Description
-The system should enable users to search for diagnostic laboratories according to certain criteria, i.e. region, postcode.
+The system should enable patients to search for diagnostic laboratories according to certain criteria, i.e. region, postcode.
 #### User priority
-(5/5)
-#### Technical difficulty
-(4/5)
+(5/5) Without the search option, the user cannot view a lab's profile and proceed with the appointment's booking.
+#### Technical priority
+(4/5) The main functionality of the system, i.e. the appointment's booking, is disabled without the search option.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/search.feature
 
 ### FR-5
-The user shall be able to see the available tests provided by each lab.
+The patient shall be able to search for lab's tests.
 #### Description
-When a user chooses a specific lab, the system should display a list with all the tests provided. These may refer to complete blood count, cholesterol and glucose analyses, urinalysis, etc. 
+The system should enable patients, when they view a lab's profile, to search for tests provided by the lab.
 #### User priority
-(5/5)
-#### Technical difficulty
-(5/5)
+(5/5) In order to book an appointment, the patient must search for tests and place them in cart. Without the search option, the user cannot view lab's tests and proceed with the appointment's booking.
+#### Technical priority
+(4/5) The main functionality of the system, i.e. the appointment's booking, is disabled without the search option.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/search.feature
 
 ### FR-6
-The patient shall be able to place, modify or cancel a test order.
+The patient shall be able to see the available tests provided by each lab.
 #### Description
+When a patient chooses a specific lab, the system should display a list with all the tests provided. These may refer to complete blood count, cholesterol and glucose analyses, urinalysis, etc. 
 #### User priority
-#### Technical difficulty
+(4/5) In order to book an appointment, the patient must search for tests and place them in cart. If he does not know the name or id of a test, this option enables him to view all tests and select the ones of his preference.
+#### Technical priority
+(3/5) The system is functional even when this requirement is not included, since patients have also the option to search for a specific test by name.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/suggest.feature
 
 ### FR-7
-The patient shall be able to add payment details.
+The patient shall be able to place, view or cancel a test order.
 #### Description
+Each patient must be able to make an appointment, view it whenever he wants and cancel it, as long as the time until the test execution is more than two hours.
 #### User priority
-#### Technical difficulty
+(5/5) It is necessary that the system allows the patients to book appointments and handle them.
+#### Technical priority 
+(4/5) The system achieves its full functionality only when the booking service is provided.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.feature
 
 ### FR-8
-The patient shall be able to confirm the order's details.
+The patient shall be able to add payment details.
 #### Description
+Each patient must have the option to fill the payment details in order to confirm the booking.
 #### User priority
-#### Technical difficulty
+(5/5) The appointment cannot be booked if payment details are not provided.
+#### Technical priority
+(4/5) The main service of the system, i.e. the appointment booking, cannot be provided if this requirement is not included.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/payment.feature
 
 ### FR-9
+The patient shall be able to confirm the order's details.
+#### Description
+The patient must have the option to review and confirm the appointment's details before submitting the order.
+#### User priority
+(5/5) The appointment cannot be submitted without the confirmation step.
+#### Technical difficulty
+(4/5) The main service of the system, i.e. the appointment booking, cannot be provided without the confirmation step.
+#### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.feature
+
+### FR-10
 The patient shall be able to select the datetime and location of the sample's collection.
 #### Description
 During the booking procedure, the patient must be able to choose when and where he wants the test to be executed. The options of the location are either the laboratory or his own place, where, in the case of the latter, the sample is collected by a collection agent.
 #### User priority
-#### Technical difficulty
+(5/5) In order to proceed with the appointment booking, it is essential that the patient selects the datetime and location of the test execution.
+#### Technical priority
+(4/5) The main service of the system, i.e. the appointment booking, cannot be provided without choosing the location and datetime of the test execution.
 #### User story
-
-### FR-10
-The patient shall be informed about the collection agent's details.
-#### Description
-#### User priority
-#### Technical difficulty
-#### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.feature
 
 ### FR-11
-The patient shall receive a confirmation message with the booking's details.
+The patient should receive a confirmation message with the booking's details.
 #### Description
+When the booking is submitted, it is suggested that the system will send a sms and/or email message with the appointment's details. 
 #### User priority
+(4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system in case he wants to view the appointment's details.
 #### Technical difficulty
+(1/5) The system is fully functional without FR-11.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.feature
 
 ### FR-12 
 The patient shall receive a message when the test results are ready.
