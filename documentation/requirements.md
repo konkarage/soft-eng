@@ -168,10 +168,13 @@ The lab must have the option to upload test results when it views a patient's pr
 https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 
 ### FR-16
-The lab shall be able to accept a test booking.
+The lab shall be able to define the payment policy.
 #### Description
+Each lab must define the ways patients can pay for test bookings. 
 #### User priority
-#### Technical difficulty
+(4/5) The patient will not be able to proceed with the appointment booking, if he tries to pay using ways that are not supported by the system.
+#### Technical priority
+(4/5) The booking procedure cannot be completed.
 #### User story
 
 ### FR-17
