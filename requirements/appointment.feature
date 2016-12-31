@@ -52,7 +52,7 @@ Feature: appointment
 		Given that I have submitted an appointment
 		And the time until the test execution is less than 2 hours
 		When I cancel the appointment
-		Then I should see a message saying "Appointment cannot be cancelled. Please contact with the lab."
+		Then I should see a message saying "Appointment cannot be cancelled. Please contact the lab."
 
 	Scenario: view appointment
 		Given that I have submitted an appointment
