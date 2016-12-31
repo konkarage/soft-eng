@@ -167,4 +167,11 @@ The administrator shall be able to insert or delete a laboratory from the system
 
 ## Activity diagrams
 
+![activitydiagram1](https://cloud.githubusercontent.com/assets/15689115/21576618/805356de-cf3f-11e6-84ed-3a823cdd0b62.jpg)
+
+![activitydiagram2](https://cloud.githubusercontent.com/assets/15689115/21576633/cf8abf44-cf3f-11e6-8ff9-e3137dada62d.jpg)
+
+![activity diagram4](https://cloud.githubusercontent.com/assets/15689115/21576643/f686f784-cf3f-11e6-95a4-5c6f427ef92c.jpg)
+
+
 
