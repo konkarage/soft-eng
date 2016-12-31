@@ -31,7 +31,7 @@ It is important that each user can view his profile and make changes to informat
 #### User priority
 (4/5) It is important for the user to be able to update invalid personal details in order not to face difficulties when he tries to use the system.
 #### Technical priority
-(2/5) The system is fully functional even if we ommit FR-3.
+(2/5) The system is fully functional even if we omit FR-3.
 #### User story
 https://github.com/konkarage/soft-eng/blob/master/requirements/account.feature
 
@@ -118,7 +118,7 @@ The patient should receive a confirmation message with the booking's details.
 When the booking is submitted, it is suggested that the system will send a sms and/or email message with the appointment's details. 
 #### User priority
 (4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system in case he wants to view the appointment's details.
-#### Technical difficulty
+#### Technical priority
 (1/5) The system is fully functional without FR-11.
 #### User story
 https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.feature
@@ -126,66 +126,81 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.featu
 ### FR-12 
 The patient shall receive a message when the test results are ready.
 #### Description
+When the test results have been prepared from the lab, a message informing the patient should be sent.
 #### User priority
-#### Technical difficulty
+(5/5) It is of high importance that the patient is informed when the results are ready, so as to know when to acquire them.
+#### Technical priority
+(1/5) The system is fully functional without FR-12.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 
 ### FR-13
-The patient shall be able to acquire the results (is download accepted in a FR??)
+The patient shall be able to acquire the results.
 #### Description
+The patient must have the option to view each appointment's results and download them or print them.
 #### User priority
-#### Technical difficulty
+(5/5) The patient must have the option to acquire the test results.
+#### Technical priority
+(2/5) The system does not lose its full functionality when this requirement is omitted.
 #### User story
 
 ### FR-14
-The user should(non-mandatory) be able to see the nearest to him laboratories.
+The patient should be able to see the nearest to him laboratories.
 #### Description
 The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
 #### User priority
-#### Technical difficulty
+(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+#### Technical priority
+(1/5) The system will remain fully functional without considering this requirement.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/suggest.feature
 
 ### FR-15
-The nurses/physicians shall be able to send test results to patients.
+The lab shall be able to ulpoad test results to the system.
 #### Description
+The lab must have the option to upload test results when it views a patient's profile.
 #### User priority
-#### Technical difficulty
+(4/5) It is important that the lab has the option to provide patients with test results.
+#### Technical priority
+(2/5) The system remains fully functional.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 
 ### FR-16
-The nurses/physicians shall be able to accept a test booking.
+The lab shall be able to accept a test booking.
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
 
 ### FR-17
-The nurses/physicians shall be able to send a message to a patient.
+The lab shall be able to send a message to a patient.
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
 
 ### FR-18
-The lab's administrator shall be able to modify the laboratory's profile information. 
-#### Description
-#### User priority
-#### Technical difficulty
-#### User story
-
-### FR-19
-The lab's administrator shall be able to insert or delete a test from the list of the available tests.
+The lab shall be able to insert, update or delete a test from the list of the available tests.
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
 
 ### FR-20
-The administrator shall be able to insert or delete a laboratory from the system.
+The administrator shall be able to create, modify or delete a user's account.
 #### Description
 #### User priority
 #### Technical difficulty
 #### User story
+
+### FR-20
+The administrator shall be able to receive a message from a lab representative.
+#### Description
+#### User priority
+#### Technical difficulty
+#### User story
+
 
 ## Use case diagrams
 
