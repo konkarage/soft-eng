@@ -64,7 +64,7 @@ When a patient chooses a specific lab, the system should display a list with all
 #### User priority
 (4/5) In order to book an appointment, the patient must search for tests and place them in cart. If he does not know the name or id of a test, this option enables him to view all tests and select the ones of his preference.
 #### Technical priority
-(3/5) The system is functional even when this requirement is not included, since patients have also the option to search for a specific test by name.
+(3/5) The system is functional even when this requirement is not included, since patients have also the option to search for a specific test by name or id.
 #### User story
 https://github.com/konkarage/soft-eng/blob/master/requirements/suggest.feature
 
@@ -96,7 +96,7 @@ The patient shall be able to confirm the booking's details.
 The patient must have the option to review and confirm the appointment's details before submitting the order.
 #### User priority
 (5/5) The appointment cannot be submitted without the confirmation step.
-#### Technical difficulty
+#### Technical priority
 (4/5) The main service of the system, i.e. the appointment booking, cannot be provided without the confirmation step.
 #### User story
 https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.feature
@@ -117,7 +117,7 @@ The patient should receive a confirmation message with the booking's details.
 #### Description
 When the booking is submitted, it is suggested that the system will send to the patient a sms and/or email with the appointment's details. 
 #### User priority
-(4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system in case he wants to view the appointment's details.
+(4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system every time he wants to view the appointment's details.
 #### Technical priority
 (1/5) The system is fully functional without FR-11.
 #### User story
@@ -137,7 +137,7 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 ### FR-13
 The patient shall be able to acquire test results.
 #### Description
-The patient must have the option to view each appointment's results and download them or print them.
+The patient must have the option to view each appointment's results and download or print them.
 #### User priority
 (5/5) It is essential for the patient to be able to acquire test results .
 #### Technical priority
@@ -181,9 +181,9 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/payment.feature
 ### FR-17
 The lab shall be able to send a results message to a patient.
 #### Description
-Each lab must have the option to communicate with its patients in order to inform them that test result are ready.
+Each lab must have the option to communicate with its patients in order to inform them that test results are ready.
 #### User priority
-(4/5) If the communication between the lab and its patients fails, then the latter may take actions with no results, i.e. enter the system in order to download results without knowing if results are ready.
+(4/5) If the communication between the lab and its patients fails, then the latter may take actions with no results, i.e. enter the system in order to download results without knowing if they are available.
 #### Technical priority
 (1/5) The system remains totally functional.
 #### User story
