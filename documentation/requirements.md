@@ -325,7 +325,7 @@ The system should be usable from the widest possible userbase.
 (5/5) It is of great importance to set the foundation of such a design early on, to avoid massive code restructuring.
 
 ### NFR-4
-The system should allow many users to interact with it simultaneously.
+The system shall allow many users to interact with it simultaneously.
 #### Description
 Each user should be able to interact with the system at will. One user using the system should not impede or degrade the experience of another user.
 #### User priority
@@ -334,7 +334,7 @@ Each user should be able to interact with the system at will. One user using the
 (5/5) It is a fundamental requirement for the system and so of high priority.
 
 ### NFR-5
-The system should require the password of each user to be at least 8 character long, containing at least one uppercase and one lowercase letter, one number and one symbol.
+The system shall require the password of each user to be at least 8 character long, containing at least one uppercase and one lowercase letter, one number and one symbol.
 #### Description
 As stated before, the system will be a gateway to sensitive information, thus the passwords that the users identify themselves with should comply with strict security standards.
 #### User priority
@@ -352,38 +352,38 @@ Each lab has a finite amount of timeslots for each day and it is possible that m
 (3/5) This feature is of medium technical importance.
 
 ### NFR-7
-The patient should be able to see the nearest to him laboratories.
+The system should support SMS messaging.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+The users should receive messages at certain events. These messages could be delivered either through the system itself or using the classic SMS.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(3/5) Although the users must have a certain degree of technological skills to use the system, many of them will be elders who are more comfortable with using SMS.
 #### Technical priority
 (1/5) The system will remain fully functional without considering this requirement.
 
 ### NFR-8
-The patient should be able to see the nearest to him laboratories.
+The system shall allow the patients to pay with credit cards, PayPal or bitcoins.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+Along with the traditional option to pay using cash, the patients should have the option to pay with the abovementioned online methods. Bitcoin is needed specifically, because it allows the patients to leave no trace of their medical activity outside of the system.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(3/5) This feature will make the system more convenient to use.
 #### Technical priority
 (1/5) The system will remain fully functional without considering this requirement.
 
 ### NFR-9
-The patient should be able to see the nearest to him laboratories.
+The system should be able to use IP and GPS geolocation services in order to estimate a user's location.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+The system should automatically show the patients the nearby laboratories.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(4/5) In many cases proximity to a lab is a very important criterion. Thus patients will benefit from this feature.
 #### Technical priority
-(1/5) The system will remain fully functional without considering this requirement.
+(2/5) The system will still provide the option to search the available labs by name.
 
 ### NFR-10
-The patient should be able to see the nearest to him laboratories.
+The system shall support files of size up to 500MB to be uploaded.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+Test results for cases of medical imaging are large in size, and the tendency is to get even bigger. Thus the system shall be able to handle such files.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(5/5) Medical imaging covers a wide range of common tests that the users shall be able to download.
 #### Technical priority
-(1/5) The system will remain fully functional without considering this requirement.
+(5/5) The ability to upload and download test results is fundamental for the system.
 
