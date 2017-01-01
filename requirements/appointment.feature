@@ -1,4 +1,6 @@
 Feature: appointment
+	The patient proceeds with an appointment booking.
+	
 	Scenario: select location of sample collection
 		Given that I view a lab's profile
 		When I book an appointment
@@ -7,7 +9,7 @@ Feature: appointment
     		And I have the option to select my own place
 
 	Scenario: select datetime of sample collection
-		Given that I proceed with an appointment booking
+		Given that I make an appointment booking
 		When I select the location of the sample collection
 		Then I have the option to select the datetime of the sample collection
 
