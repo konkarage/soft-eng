@@ -6,4 +6,4 @@ This activity starts after the patient clicks the "My cart" button after adding 
 
 ![bookCart](/support/Book from cart.png?raw=true)
 ![confirm](/support/Confirm.png?raw=true)
-![booked](/support/Just booked.png?raw=true)
+![booked](/support/Just Booked.png?raw=true)
