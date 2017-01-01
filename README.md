@@ -8,7 +8,7 @@
 
 ## Abstract
 
-The main objective of this project is to illustrate the user requirements of our system, a valuable procedure in order to ensure that the system's performance is based on the users' needs. More specifically, after having given a detailed description of functional and non-functional requirements, feature files have been created, each of which containing scenarios with happy and unhappy paths. Then, two use case diagrams follow, showing all scenarios and the actors that participate in the system. Basic processes of the system are visualized through activity diagrams. A sketch of the system's interface is given by several mockups and storyboards.
+The main objective of this project is to illustrate the user requirements of our system, a valuable procedure in order to ensure that the system's performance is based on the users' needs. User requirement analysis is the foundation of a user-centred approach and provides precise descriptions of the content, functionality and quality demanded by prospective users. For the identification of user needs, the user perspective must be assumed and result in: functional and non-functional requirements. In the current project, we have first given a detailed description of them and, then, created feature files, each of which containing scenarios with happy and unhappy paths. Two use case diagrams follow, showing all scenarios and the actors that participate in the system. Basic processes of the system are visualized through activity diagrams. A sketch of the system's interface is given by several mockups and storyboards.
 
 ## Table of Contents
 
