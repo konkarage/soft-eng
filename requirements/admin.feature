@@ -22,9 +22,9 @@ Feature: admin
 	Scenario: delete user account
 		Given that a user exists
 		When I delete a user by name
-		Then I should see a message telling me "Succefully deleted"
+		Then I should see a message telling me "Successfully deleted"
 		
-	Scenario: unsuccesfuly delete user account
+	Scenario: unsuccessfully delete user account
 		Given that the user account does not exist
 		When I try to delete a user by name
 		Then I should see a message telling me "There is no such user"
