@@ -17,4 +17,4 @@ Links to the documents you have created
   1. [Introduction](https://github.com/konkarage/soft-eng/blob/master/documentation/Intro.md)
   2. [Requirements document](https://github.com/konkarage/soft-eng/blob/master/documentation/requirements.md)
   3. [Feature files](https://github.com/konkarage/soft-eng/tree/master/requirements)
-  3. [Storyboards]
+  3. [Storyboards](https://github.com/konkarage/soft-eng/tree/master/documentation)
