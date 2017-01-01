@@ -15,7 +15,7 @@ Feature: account
 			| 4sa!fdf_F | A_veRy!strong1 |
 			
 	Scenario: username already exists
-		Given that I navigates the account creation page
+		Given that I navigated the account creation page
 		When I type a username
 		Then I should see the message "Username already exists"
 			
