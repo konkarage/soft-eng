@@ -183,7 +183,7 @@ The lab shall be able to send a results message to a patient.
 #### Description
 Each lab must have the option to communicate with its patients in order to inform them that test results are ready.
 #### User priority
-(4/5) If the communication between the lab and its patients fails, then the latter may take actions with no results, i.e. enter the system in order to download results without knowing if they are available.
+(4/5) If the communication between the lab and its patients fails, then the latter may take actions with no meaning, i.e. enter the system in order to download results without knowing if they are available.
 #### Technical priority
 (1/5) The system remains totally functional.
 #### User story
