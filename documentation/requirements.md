@@ -47,13 +47,13 @@ The system should enable patients to search for diagnostic laboratories accordin
 https://github.com/konkarage/soft-eng/blob/master/requirements/search.feature
 
 ### FR-5
-The patient shall be able to search for lab's tests.
+The patient and lab shall be able to search for tests.
 #### Description
-The system should enable patients, when they view a lab's profile, to search for tests provided by the lab.
+The system should enable patients and labs, as well, to search for the tests provided by the corresponding lab. Patients search for tests in order to place them in cart and proceed with the appointment booking. Each lab must be able to search for its tests in order to view, update or delete them. 
 #### User priority
-(5/5) In order to book an appointment, the patient must search for tests and place them in cart. Without the search option, the user cannot view lab's tests and proceed with the appointment's booking.
+(5/5) In order to book an appointment, the patient must search for tests and place them in cart. Without the search option, the user cannot view lab's tests and proceed with the appointment's booking. Moreover, the lab's reliability is achieved when it keeps its profile updated.
 #### Technical priority
-(4/5) The main functionality of the system, i.e. the appointment's booking, is disabled without the search option.
+(4/5) The main functionality of the system, i.e. the appointment's booking, is disabled without the search option. 
 #### User story
 https://github.com/konkarage/soft-eng/blob/master/requirements/search.feature
 
@@ -91,7 +91,7 @@ Each patient must have the option to fill the payment details in order to confir
 https://github.com/konkarage/soft-eng/blob/master/requirements/payment.feature
 
 ### FR-9
-The patient shall be able to confirm the order's details.
+The patient shall be able to confirm the booking's details.
 #### Description
 The patient must have the option to review and confirm the appointment's details before submitting the order.
 #### User priority
@@ -115,7 +115,7 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.featu
 ### FR-11
 The patient should receive a confirmation message with the booking's details.
 #### Description
-When the booking is submitted, it is suggested that the system will send a sms and/or email message with the appointment's details. 
+When the booking is submitted, it is suggested that the system will send a sms and/or email with the appointment's details. 
 #### User priority
 (4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system in case he wants to view the appointment's details.
 #### Technical priority
@@ -135,11 +135,11 @@ When the test results have been prepared from the lab, a message informing the p
 https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 
 ### FR-13
-The patient shall be able to acquire the results.
+The patient shall be able to acquire test results.
 #### Description
 The patient must have the option to view each appointment's results and download them or print them.
 #### User priority
-(5/5) The patient must have the option to acquire the test results.
+(5/5) It is essential for the patient to be able to acquire test results .
 #### Technical priority
 (2/5) The system does not lose its full functionality when this requirement is omitted.
 #### User story
@@ -159,9 +159,9 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/suggest.feature
 ### FR-15
 The lab shall be able to ulpoad test results to the system.
 #### Description
-The lab must have the option to upload test results when it views a patient's profile.
+The lab must have the option to upload test results to a patient's profile.
 #### User priority
-(4/5) It is important that the lab has the option to provide patients with test results.
+(5/5) If results are not uploaded, patients cannot retrieve them.
 #### Technical priority
 (2/5) The system remains fully functional.
 #### User story
@@ -176,34 +176,73 @@ Each lab must define the ways patients can pay for test bookings.
 #### Technical priority
 (4/5) The booking procedure cannot be completed.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/payment.feature
 
 ### FR-17
-The lab shall be able to send a message to a patient.
+The lab shall be able to send a results message to a patient.
 #### Description
+Each lab must have the option to communicate with its patients in order to inform them that test result are ready.
 #### User priority
-#### Technical difficulty
+(4/5) If the communication between the lab and its patients fails, then the latter may take actions with no results, i.e. enter the system in order to download results without knowing if results are ready.
+#### Technical priority
+(1/5) The system remains totally functional.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 
 ### FR-18
 The lab shall be able to insert, update or delete a test from the list of the available tests.
 #### Description
+The lab has the option to manage the tests it provides.
 #### User priority
-#### Technical difficulty
+(5/5) The lab's role would be useless, if it were not able to handle its own tests.
+#### Technical priority
+(4/5) Some main procedures would be disabled, i.e. the appointment booking.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 
-### FR-20
+### FR-19
 The administrator shall be able to create, modify or delete a user's account.
 #### Description
+The administrator should have full freedom on creating, modifying and deleting users' accounts.
 #### User priority
-#### Technical difficulty
+(5/5) The administrator's role is very important, since he determines if a lab fulfils the criteria in order to be added to the system.
+#### Technical priority
+(3/5) There will be malfunctions in the system, since uncertified labs may create accounts. 
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/admin.feature
 
 ### FR-20
 The administrator shall be able to receive a message from a lab representative.
 #### Description
+A lab representative, regarded as a guest that interacts with the system, must have the option to send a message to the administrator in order to ask for an account creation.
 #### User priority
-#### Technical difficulty
+(5/5) There is no other way for the administrator to communicate with a new lab that wants to enter the system.
+#### Technical priority
+(3/5) In order to achieve reliability, uncertified labs should not be able to create accounts.
 #### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/admin.feature
+
+### FR-21
+The lab shall be able to set and update the test's price.
+#### Description
+Each lab must define the price of the tests it provides.
+#### User priority
+(5/5) The lab should necessarily define and modify the price of the tests.
+#### Technical priority
+(4/5) Some main procedures would be disabled, i.e. the appointment booking.
+#### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
+
+### FR-22
+The lab shall be able to submit the operation and collection timetables.
+#### Description
+The lab must define the available dates and hours the test execution can take place. Operation timetable refers to appointments at the lab's place, whereas collection timetable regards the appointments where the sample is collected from the patient's place. 
+#### User priority
+(5/5) Without the timetables, labs' appointments have no meaning.
+#### Technical priority
+(4/5) Patients are unable to proceed with the appointment booking.
+#### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 
 
 ## Use case diagrams
@@ -213,6 +252,22 @@ The administrator shall be able to receive a message from a lab representative.
 ![use_case_admin](https://cloud.githubusercontent.com/assets/15689115/21576615/74382ca8-cf3f-11e6-9f3f-3682cdb44c6a.jpg)
 
 ## Activity diagrams
+
+### Users and external systems
+## User 1
+# Patient
+
+## User 2
+# Lab
+
+## User 3
+# Admin
+
+## User 4
+# Guest
+
+## External System 1
+# SystemDB
 
 ### Activity diagram "Sign in to the system"
 ![activitydiagram1](https://cloud.githubusercontent.com/assets/15689115/21576618/805356de-cf3f-11e6-84ed-3a823cdd0b62.jpg)
