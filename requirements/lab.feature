@@ -15,11 +15,11 @@ Feature: lab
 	
 	Scenario: Submit operation timetable
 		When I submit an operation timetable
-		Then I should see a message telling  me "Operation timetable submitted"
+		Then I should see a message telling me "Operation timetable submitted"
 		
 	Scenario: Submit collection timetable
 		When I submit a collection timetable
-		Then I should see a message telling  me "Collection timetable submitted"
+		Then I should see a message telling me "Collection timetable submitted"
 
 	Scenario: Insert new test
 		When I insert a new test at the list of available ones
