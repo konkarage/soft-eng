@@ -9,24 +9,22 @@ The system, a Software-as-a-Service, is an online diagnostic lab manager applica
 Define any domain-related keywords used in the documents.
 
 **Software-as-a-Service**
+A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. SaaS is typically accessed by users using a thin client via a web browser
 
+**Login**
+The process by which an individual gains access to a computer system through authentication.
 
-**login**
+**Logout**
+The process by which a user stops having access to a system.
 
-Define term 1 ...
+**Sign up**
+The process by which 
 
-**logout**
-
-Define term 2 ...
-
-**sign up**
-
-Define term 2 ...
-
-**upload**
+**Upload**
 
 Define term 2 ...
 
-**credentials**
+**Credentials**
+The username and password by which a user is identified and gains access to a computer system.
 
 
