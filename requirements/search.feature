@@ -1,4 +1,5 @@
 Feature: search
+	Users shall have the option to search for available labs and the tests each lab offers.
 
 	Scenario: search for a lab
 		Given that I am logged in as patient
@@ -18,7 +19,7 @@ Feature: search
 		Then I should receive a message "You must login first" 
 
 	Scenario: search for a test
-		Given that I am logged in as patient or lab 
+		Given that I am logged in as a patient or a lab 
 		When I search for a test by name or id
 		Then a list of <tests> appears with the following format 
 			      |name|price|
