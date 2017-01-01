@@ -12,4 +12,9 @@ Feature: authentication
 		When I submit wrong <username> or <password> at the login screen
 			| user | password |
 		Then I should see a message telling me "Wrong username or password"
+		
+	Scenario: sign out
+		Given that I am logged in
+		When I select the option "Sign out" from the menu
+		Then I am directed to the initial page
 	
