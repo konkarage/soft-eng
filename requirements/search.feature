@@ -18,7 +18,7 @@ Feature: search
 		Then I should receive a message "You must login first" 
 
 	Scenario: search for a test
-		Given that I have selected a lab 
+		Given that I am logged in as patient or lab 
 		When I search for a test by name or id
 		Then a list of <tests> appears with the following format 
 			      |name|price|
