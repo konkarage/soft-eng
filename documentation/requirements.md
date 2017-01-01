@@ -248,20 +248,15 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 ## Use case diagrams
 
 ### Users and external systems
-#### User 1
-##### Patient
+#### User 1: Patient
 
-#### User 2
-##### Lab
+#### User 2: Lab
 
-#### User 3
-##### Admin
+#### User 3: Admin
 
-#### User 4
-##### Guest
+#### User 4: Guest
 
-#### External System 1
-##### SystemDB
+#### External System 1: SystemDB
 
 
 ### Use case diagram 1
