@@ -69,7 +69,7 @@ When a patient chooses a specific lab, the system should display a list with all
 https://github.com/konkarage/soft-eng/blob/master/requirements/suggest.feature
 
 ### FR-7
-The patient shall be able to place, view or cancel a test order.
+The patient shall be able to place, view or cancel a test booking.
 #### Description
 Each patient must be able to make an appointment, view it whenever he wants and cancel it, as long as the time until the test execution is more than two hours.
 #### User priority
@@ -115,7 +115,7 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.featu
 ### FR-11
 The patient should receive a confirmation message with the booking's details.
 #### Description
-When the booking is submitted, it is suggested that the system will send a sms and/or email with the appointment's details. 
+When the booking is submitted, it is suggested that the system will send to the patient a sms and/or email with the appointment's details. 
 #### User priority
 (4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system in case he wants to view the appointment's details.
 #### Technical priority
@@ -205,7 +205,7 @@ The administrator shall be able to create, modify or delete a user's account.
 #### Description
 The administrator should have full freedom on creating, modifying and deleting users' accounts.
 #### User priority
-(5/5) The administrator's role is very important, since he determines if a lab fulfils the criteria in order to be added to the system.
+(5/5) The administrator's role is very important, since he determines if a lab fulfills the criteria in order to be added to the system.
 #### Technical priority
 (3/5) There will be malfunctions in the system, since uncertified labs may create accounts. 
 #### User story
@@ -244,6 +244,16 @@ The lab must define the available dates and hours the test execution can take pl
 #### User story
 https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 
+### FR-23
+The patient shall be able to add or remove a test from cart.
+#### Description
+When a patient views the details of a test, he must have the option to add it to cart. Moreover, he must be able to view the cart and remove tests from it.
+#### User priority
+(5/5) In order to book an appointment, the patient must be able to add to cart the tests of his preference or remove them from it. 
+#### Technical priority
+(4/5) Patients are unable to proceed with the appointment booking.
+#### User story
+https://github.com/konkarage/soft-eng/blob/master/requirements/cart.feature
 
 ## Use case diagrams
 
