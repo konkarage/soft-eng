@@ -10,7 +10,7 @@ Define any domain-related keywords used in the documents.
 
 **Software-as-a-Service**
 
-A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. SaaS is typically accessed by users using a thin client via a web browser
+A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. SaaS is typically accessed by users using a thin client via a web browser.
 
 **Login**
 
@@ -26,7 +26,7 @@ The process of creating a personal account in order to have full access to a sys
 
 **Upload**
 
-Send data to a remote system such as a server or another client so that the remote system can store a copy.
+Send data to a remote system such as a server or another client, so that the remote system can store a copy.
 
 **Credentials**
 
