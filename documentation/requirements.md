@@ -307,7 +307,7 @@ Due the sensitive nature of the information exchanged between the users, all com
 (4/5) The system will remain fully functional without considering this requirement, but legal issues could be raised.
 
 ### NFR-2
-The results of each test should be available in pdf form.
+The system should require that the results of each test should be available in pdf form.
 #### Description
 There users should be able to read the results without converting them. Pdf is the most widely used format for this purpose.
 #### User priority
@@ -325,31 +325,31 @@ The system should be usable from the widest possible userbase.
 (5/5) It is of great importance to set the foundation of such a design early on, to avoid massive code restructuring.
 
 ### NFR-4
-The patient should be able to see the nearest to him laboratories.
+The system should allow many users to interact with it simultaneously.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+Each user should be able to interact with the system at will. One user using the system should not impede or degrade the experience of another user.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(5/5) Users do not like waiting or downtime.
 #### Technical priority
-(1/5) The system will remain fully functional without considering this requirement.
+(5/5) It is a fundamental requirement for the system and so of high priority.
 
 ### NFR-5
-The patient should be able to see the nearest to him laboratories.
+The system should require the password of each user to be at least 8 character long, containing at least one uppercase and one lowercase letter, one number and one symbol.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+As stated before, the system will be a gateway to sensitive information, thus the passwords that the users identify themselves with should comply with strict security standards.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(3/5) It is a double edged sword. Users will enjoy the security on the long term but complain about the long passwords.
 #### Technical priority
-(1/5) The system will remain fully functional without considering this requirement.
+(5/5) Due to possible legal and business issues, the system should be secure from day one.
 
 ### NFR-6
-The patient should be able to see the nearest to him laboratories.
+The system should use SQL transactions to handle concurrency issues in the database.
 #### Description
-The system could use the user's location services (if enabled) and show automatically the nearby laboratories.
+Each lab has a finite amount of timeslots for each day and it is possible that multiple patients try to make a booking for the timeslot at the same time. The system should be able to handle such conflicts.
 #### User priority
-(3/5) It would be interesting to add a feature that will enable patients to view a list with the nearby labs.
+(3/5) Conflicts are unlikely at the beginning and with a small number of users. Each one is detrimental to the user experience though.
 #### Technical priority
-(1/5) The system will remain fully functional without considering this requirement.
+(3/5) This feature is of medium technical importance.
 
 ### NFR-7
 The patient should be able to see the nearest to him laboratories.
