@@ -1,5 +1,10 @@
 Feature: test results
 
+Scenario: send results message
+ 		Given that I am logged in as lab
+ 		When I upload the test results to the patient's profile
+ 		Then I have the option to send a message to the patient to inform him that he can retrieve the results
+
 	Scenario: download results
 		Given that I have received the message that the test results are ready
 		When I select the option "My Health Records"
@@ -25,5 +30,7 @@ Feature: test results
 		And I am in a patient's profile
 		When I upload the test results
 		Then I see a message "Not supported file format. Please upload a .pdf file"
+		
+	
 		
 	
