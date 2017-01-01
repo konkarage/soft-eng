@@ -201,7 +201,7 @@ The lab has the option to manage the tests it provides.
 https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 
 ### FR-19
-The administrator shall be able to create, modify or delete a user's account.
+The admin shall be able to create, modify or delete a user's account.
 #### Description
 The administrator should have full freedom on creating, modifying and deleting users' accounts.
 #### User priority
@@ -212,7 +212,7 @@ The administrator should have full freedom on creating, modifying and deleting u
 https://github.com/konkarage/soft-eng/blob/master/requirements/admin.feature
 
 ### FR-20
-The administrator shall be able to receive a message from a lab representative.
+The admin shall be able to receive a message from a lab representative.
 #### Description
 A lab representative, regarded as a guest that interacts with the system, must have the option to send a message to the administrator in order to ask for an account creation.
 #### User priority
