@@ -259,13 +259,13 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/cart.feature
 
 ### Users and external systems
 #### User 1: Patient
-
+The patient is the core user of the system.
 #### User 2: Lab
 
 #### User 3: Admin
-
+The user Admin is responsible for the smooth operation of the system. He administers SystemDB and can view, create, update and delete users and records. Messages exchanged by the users and test results are out his reach though, since they are encrypted.   He is the only one who can create lab accounts and it is his duty to keep the system free of fraudulent and low quality labs.
 #### User 4: Guest
-
+The user "Guest" refers to any entity that has not logged in to the system. He can only see the homepage, try to login, create a patient account and request the creation of a lab account.
 #### External System 1: SystemDB
 
 
