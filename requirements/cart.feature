@@ -1,4 +1,5 @@
 Feature: cart
+	Patients have the option to add tests to cart or remove them from it.
 
 	Scenario: add test to cart
 		Given that I have searched for a test
