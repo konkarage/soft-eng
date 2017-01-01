@@ -18,13 +18,17 @@ The process by which an individual gains access to a computer system through aut
 The process by which a user stops having access to a system.
 
 **Sign up**
-The process by which 
+The process by which a user registers himself with a system, in order to be able to use the Login and Logout processes. The user provides some personal data and receives a unique identifier.
 
 **Upload**
+The process by which a copy of a computer file gets transmited to a web server.
 
 Define term 2 ...
 
 **Credentials**
 The username and password by which a user is identified and gains access to a computer system.
+
+**Patient**
+
 
 
