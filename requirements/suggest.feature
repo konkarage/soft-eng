@@ -17,18 +17,3 @@ Feature: suggest
 		When I am logged in as patient
 		Then I can see the message "There are no labs near you"
 
-	Scenario: see tests alphabetically
-		Given that I am logged in as patient
-		When I select the option "Tests by Alphabet"
-		And I select a letter 
-		Then a list of <tests> having as first letter the selected one appears
-		And I have the option to view a test's details
-		And I have the option to see a list of <labs> that offer this test
-
-	Scenario: see tests by department 
-		Given that I am logged in as patient
-		When I select the option "Tests by Department"
-		And I select a department
-		Then a list of <tests> corresponding to the selected department appears
-		And I have the option to view a test's details
-		And I have the option to see a list of <labs> that offer this test 	
