@@ -1,5 +1,7 @@
 Feature: suggest
-
+	The system should enable users to see all available tests of each lab. Moreover, a list with nearby labs should appear when 
+	the user navigates the main page of the system.
+	
 	Scenario: see lab tests
 		Given that I have selected a lab
 		When I select the option "See all available tests"
