@@ -11,8 +11,8 @@ Feature: admin
 		
 	Scenario: unsuccesfuly create user account
 		Given that a user exists
-		When I try create a new user account with the same name
-		Then I should see a message telling me "User allready exists"
+		When I try to create a new user account with the same name
+		Then I should see a message telling me "User already exists"
 		
 	Scenario: modify user account
 		Given that a user exists
