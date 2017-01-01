@@ -4,5 +4,6 @@
 ![homepage](/support/Homepage.png?raw=true)
 
 ![patientWelcome](/support/Patient Search.png?raw=true)
-![searchLab](/support/Select Lab.png?raw=true)
+![selectLab](/support/Select Lab.png?raw=true)
+![setDates](/support/Set dates.png?raw=true)
 ![selectTest](/support/Select Test.png?raw=true)
