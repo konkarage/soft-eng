@@ -1,4 +1,5 @@
 Feature: test results
+	The patients shall be able to retrieve test results, after being informed about their availability.
 
 Scenario: send results message
  		Given that I am logged in as lab
