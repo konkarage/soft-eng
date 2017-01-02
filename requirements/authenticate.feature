@@ -7,7 +7,7 @@ Feature: authentication
 			| user | password |
 		Then I should be presented with a personalized welcome screen
 		
-	Scenario: unsuccesful sign in
+	Scenario: unsuccessful sign in
 		Given that I am not logged in
 		When I submit wrong <username> or <password> at the login screen
 			| user | password |
