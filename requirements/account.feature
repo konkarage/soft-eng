@@ -1,7 +1,7 @@
 Feature: account
 	The patients should be able to create accounts and modify their personal information.
 	
-	Scenario: succesful account creation
+	Scenario: successful account creation
 		Given that I navigated the account creation page
 		When I submit my username, password and personal information
 		Then I should see my profile
