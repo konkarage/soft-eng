@@ -32,7 +32,7 @@ Feature: appointment
 	Scenario: book new appointment
 		Given that I have a cart with tests
 		And I have entered the payment details
-		And I have confirmed the appointmet's details
+		And I have confirmed the appointment's details
 		When I submit an appointment
 		Then a new appointment is created
 		And I receive a confirmation message with the appointment's details
@@ -48,13 +48,13 @@ Feature: appointment
 		Given that I have submitted an appointment 
 		And the time until the test execution is more than 2 hours
 		When I cancel the appointment
-		Then I should see a success message saying "Appointment cancelled"
+		Then I should see a success message saying "Appointment canceled"
 
 	Scenario: unable to cancel appointment
 		Given that I have submitted an appointment
 		And the time until the test execution is less than 2 hours
 		When I cancel the appointment
-		Then I should see a message saying "Appointment cannot be cancelled. Please contact the lab."
+		Then I should see a message saying "Appointment cannot be canceled. Please contact the lab."
 
 	Scenario: view appointment
 		Given that I have submitted an appointment
