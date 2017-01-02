@@ -1,5 +1,5 @@
 Feature: admin
-	The administrator should have full freedom on creating, modifying and deleting user accounts. Additionaly, the administrator is responsible for receiving messages from lab representatives about the creation of new lab accounts.
+	The administrator should have full freedom on creating, modifying and deleting user accounts. Additionally, the administrator is responsible for receiving messages from lab representatives about the creation of new lab accounts.
 	
 	Background:
 		Given that I have logged in as an administrator 
@@ -9,7 +9,7 @@ Feature: admin
 		When I create a new user account by name
 		Then I should see the new user
 		
-	Scenario: unsuccesfuly create user account
+	Scenario: unsuccessfully create user account
 		Given that a user exists
 		When I try to create a new user account with the same name
 		Then I should see a message telling me "User already exists"
