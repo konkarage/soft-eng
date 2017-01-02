@@ -157,7 +157,7 @@ The system could use the user's location services (if enabled) and show automati
 https://github.com/konkarage/soft-eng/blob/master/requirements/suggest.feature
 
 ### FR-15
-The lab shall be able to ulpoad test results to the system.
+The lab shall be able to upload test results to the system.
 #### Description
 The lab must have the option to upload test results to a patient's profile.
 #### User priority
@@ -311,14 +311,14 @@ The system should require that the results of each test should be available in p
 #### Description
 There users should be able to read the results without converting them. Pdf is the most widely used format for this purpose.
 #### User priority
-(4/5) There are good alternatives, but pdf will providde the most hassle-free experience.
+(4/5) There are good alternatives, but pdf will provide the most hassle-free experience.
 #### Technical priority
 (1/5) The backbone of the system can be implemented without pdfs in mind.
 
 ### NFR-3
 The system's user interface should be implemented according to the Web Content Accessibility Guidelines (WCAG).
 #### Description
-The system should be usable from the widest possible userbase.
+The system should be usable from the widest possible user base.
 #### User priority
 (4/5) Many of our users could be of above average age, so this requirement is of great importance.
 #### Technical priority
