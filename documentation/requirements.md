@@ -14,9 +14,9 @@ Each user must enter the system by typing his own username and password, which a
 https://github.com/konkarage/soft-eng/blob/master/requirements/authenticate.feature
 
 ### FR-2 
-The user shall be able to create a personal account.
+The patient shall be able to create a personal account.
 #### Description
-Each user should create a profile with his personal information, i.e. name, address, contact information, insurance details. During this process the username and password for the login procedure are being set.
+Each patient should create a profile with his personal information, i.e. name, address, contact information, insurance details. During this process the username and password for the login procedure are being set.
 #### User priority
 (5/5) Each user needs his personal information in order to book an appointment, which is the main service the system offers.
 #### Technical priority
@@ -51,7 +51,7 @@ The patient and lab shall be able to search for tests.
 #### Description
 The system should enable patients and labs, as well, to search for the tests provided by the corresponding lab. Patients search for tests in order to place them in cart and proceed with the appointment booking. Each lab must be able to search for its tests in order to view, update or delete them. 
 #### User priority
-(5/5) In order to book an appointment, the patient must search for tests and place them in cart. Without the search option, the user cannot view lab's tests and proceed with the appointment's booking. Moreover, the lab's reliability is achieved when it keeps its profile updated.
+(5/5) In order to book an appointment, the patient must search for tests and place them in cart. Without the search option, the user cannot view the tests provided by the lab and proceed with the appointment's booking. Moreover, the lab's reliability is achieved when it keeps its profile updated.
 #### Technical priority
 (4/5) The main functionality of the system, i.e. the appointment's booking, is disabled without the search option. 
 #### User story
@@ -115,7 +115,7 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/appointment.featu
 ### FR-11
 The patient should receive a confirmation message with the booking's details.
 #### Description
-When the booking is submitted, it is suggested that the system will send to the patient a sms and/or email with the appointment's details. 
+When the booking is submitted, it is suggested that the system will send to the patient a message with the appointment's details. 
 #### User priority
 (4/5) It is important that the patient receives a message with all the appointment's information, since there is no need to enter the system every time he wants to view the appointment's details.
 #### Technical priority
@@ -170,7 +170,7 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/results.feature
 ### FR-16
 The lab shall be able to define the payment policy.
 #### Description
-Each lab must define the ways patients can pay for test bookings. 
+Each lab must define the ways patients can pay for the tests. 
 #### User priority
 (4/5) The patient will not be able to proceed with the appointment booking, if he tries to pay using ways that are not supported by the system.
 #### Technical priority
@@ -201,9 +201,9 @@ The lab has the option to manage the tests it provides.
 https://github.com/konkarage/soft-eng/blob/master/requirements/lab.feature
 
 ### FR-19
-The admin shall be able to create, modify or delete a user's account.
+The admin shall be able to create, modify or delete user accounts.
 #### Description
-The administrator should have full freedom on creating, modifying and deleting users' accounts.
+The administrator shall have full freedom on creating, modifying and deleting user accounts.
 #### User priority
 (5/5) The administrator's role is very important, since he determines if a lab fulfills the criteria in order to be added to the system.
 #### Technical priority
@@ -214,7 +214,7 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/admin.feature
 ### FR-20
 The admin shall be able to receive a message from a lab representative.
 #### Description
-A lab representative, regarded as a guest that interacts with the system, must have the option to send a message to the administrator in order to ask for an account creation.
+A lab representative, regarded as a guest that interacts with the system, must have the option to send a message to the administrator in order to request a new lab account to be created.
 #### User priority
 (5/5) There is no other way for the administrator to communicate with a new lab that wants to enter the system.
 #### Technical priority
@@ -300,16 +300,16 @@ The user "Guest" refers to any entity that has not logged in to the system. He c
 ### NFR-1
 The system shall support end to end public key encryption regarding the exchange of messages and files
 #### Description
-Due the sensitive nature of the information exchanged between the users, all communication between them should be done in an encrypted way, unreadable even by the administrator.
+Due to the sensitive nature of the information exchanged between the users, all communication should be done in an encrypted way, unreadable even by the administrator.
 #### User priority
 (4/5) Many users could be hesitant about using the system without this feature. 
 #### Technical priority
 (4/5) The system will remain fully functional without considering this requirement, but legal issues could be raised.
 
 ### NFR-2
-The system should require that the results of each test should be available in pdf form.
+The system should require the results of each test to be available in pdf form.
 #### Description
-There users should be able to read the results without converting them. Pdf is the most widely used format for this purpose.
+There users should be able to easily read the results of the tests. Pdf is the most widely used format for this purpose.
 #### User priority
 (4/5) There are good alternatives, but pdf will provide the most hassle-free experience.
 #### Technical priority
@@ -318,11 +318,11 @@ There users should be able to read the results without converting them. Pdf is t
 ### NFR-3
 The system's user interface should be implemented according to the Web Content Accessibility Guidelines (WCAG).
 #### Description
-The system should be usable from the widest possible user base.
+The system should be usable from the widest possible user base. Thus, proper care should be taken when designing the user interface, in order to make it accessible to people with impaired vision.
 #### User priority
 (4/5) Many of our users could be of above average age, so this requirement is of great importance.
 #### Technical priority
-(5/5) It is of great importance to set the foundation of such a design early on, to avoid massive code restructuring.
+(2/5) Such a goal can be reached progressively and taking into consideration user inputs. The functionality of the system is not affected.
 
 ### NFR-4
 The system shall allow many users to interact with it simultaneously.
@@ -334,7 +334,7 @@ Each user should be able to interact with the system at will. One user using the
 (5/5) It is a fundamental requirement for the system and so of high priority.
 
 ### NFR-5
-The system shall require the password of each user to be at least 8 character long, containing at least one uppercase and one lowercase letter, one number and one symbol.
+The system shall require the password of each user to be at least 8 characters long, containing at least one uppercase and one lowercase letter, one number and one symbol.
 #### Description
 As stated before, the system will be a gateway to sensitive information, thus the passwords that the users identify themselves with should comply with strict security standards.
 #### User priority
@@ -345,25 +345,25 @@ As stated before, the system will be a gateway to sensitive information, thus th
 ### NFR-6
 The system should use SQL transactions to handle concurrency issues in the database.
 #### Description
-Each lab has a finite amount of timeslots for each day and it is possible that multiple patients try to make a booking for the timeslot at the same time. The system should be able to handle such conflicts.
+Each lab has a finite amount of timeslots for each day and it is possible that multiple patients will try to make a booking for a specific timeslot at the same time. The system should be able to handle such conflicts.
 #### User priority
 (3/5) Conflicts are unlikely at the beginning and with a small number of users. Each one is detrimental to the user experience though.
 #### Technical priority
 (3/5) This feature is of medium technical importance.
 
 ### NFR-7
-The system should support SMS messaging.
+The system should be able to send messages over the cellular network (SMS).
 #### Description
 The users should receive messages at certain events. These messages could be delivered either through the system itself or using the classic SMS.
 #### User priority
-(3/5) Although the users must have a certain degree of technological skills to use the system, many of them will be elders who are more comfortable with using SMS.
+(3/5) Although the users must have a certain degree of technological skill to use the system, many of them will be elders, who are not in possession of a smart device. Thus, they cannot view their emails or read notifications from the system instantly. Using SMS they will be informed as soon as their tests are completed.
 #### Technical priority
 (1/5) The system will remain fully functional without considering this requirement.
 
 ### NFR-8
 The system shall allow the patients to pay with credit cards, PayPal or bitcoins.
 #### Description
-Along with the traditional option to pay using cash, the patients should have the option to pay with the abovementioned online methods. Bitcoin is needed specifically, because it allows the patients to leave no trace of their medical activity outside of the system.
+Along with the traditional option to pay using cash, the patients should have the option to pay for the tests using the abovementioned online methods. Bitcoin is needed specifically, because it allows the patients to leave no trace of their medical activity outside of the system.
 #### User priority
 (3/5) This feature will make the system more convenient to use.
 #### Technical priority
@@ -372,7 +372,7 @@ Along with the traditional option to pay using cash, the patients should have th
 ### NFR-9
 The system should be able to use IP and GPS geolocation services in order to estimate a user's location.
 #### Description
-The system should automatically show the patients the nearby laboratories.
+The system should have the ability to show the patients laboratories in their area.
 #### User priority
 (4/5) In many cases proximity to a lab is a very important criterion. Thus patients will benefit from this feature.
 #### Technical priority
@@ -381,9 +381,9 @@ The system should automatically show the patients the nearby laboratories.
 ### NFR-10
 The system shall support files of size up to 500MB to be uploaded.
 #### Description
-Test results for cases of medical imaging are large in size, and the tendency is to get even bigger. Thus the system shall be able to handle such files.
+The file size of test results can be quite large. For medical imaging specifically the tendency is to get even larger. Thus the system shall be able to handle such files.
 #### User priority
-(5/5) Medical imaging covers a wide range of common tests that the users shall be able to download.
+(5/5) The users expect to have the ability to download test result irrespective of size.
 #### Technical priority
 (5/5) The ability to upload and download test results is fundamental for the system.
 
