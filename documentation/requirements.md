@@ -259,15 +259,15 @@ https://github.com/konkarage/soft-eng/blob/master/requirements/cart.feature
 
 ### Users and external systems
 #### User 1: Patient
-The patient is the core user of the system.
+The patient is the prime user of the system. The system is build to service him and facilitate a more convenient way of doing medical testing. Once he registers, he can search for a diagnostic lab, select a test of his preference and add it to the cart. During this process he can specify if the test will take place at the lab facility or at his place. When he is over adding tests to the cart, he can confirm the appointment and proceed with the payment. Once the results are ready he receives a message and has the option to view, download and print them.
 #### User 2: Lab
-
+The lab has a different creation procedure, compaired to the patient. When a physical lab intends to participate in the system, it should first send a message to the administrator and after a verification procedure a lab user account is created. The lab provides tests to the patients and can update its test list. It can define its operation and collection timetable, the different means of payment that it accepts and when each test is completed it notifies the patient and uploads the results.
 #### User 3: Admin
-The user Admin is responsible for the smooth operation of the system. He administers SystemDB and can view, create, update and delete users and records. Messages exchanged by the users and test results are out his reach though, since they are encrypted.   He is the only one who can create lab accounts and it is his duty to keep the system free of fraudulent and low quality labs.
+The admin user is responsible for the smooth operation of the system. He administers SystemDB and can view, create, update and delete users and records. Messages exchanged by the users and test results are out his reach though, since they are encrypted.   He is the only one who can create lab accounts and it is his duty to keep the system free of labs of questionable standards.
 #### User 4: Guest
 The user "Guest" refers to any entity that has not logged in to the system. He can only see the homepage, try to login, create a patient account and request the creation of a lab account.
 #### External System 1: SystemDB
-
+SystemDB represents the system or systems that will host all the data relavant to the project. From user credentials and profile information to messages and test results. SystemDB will be equiped with a granular permission scheme, so that each user sees only what he is supposed to, nothing more or less.
 
 ### Use case diagram 1
 
