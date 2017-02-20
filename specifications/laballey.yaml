@@ -2,11 +2,11 @@
 # as a demonstration of an API spec in YAML
 swagger: '2.0'
 info:
-  title: Uber API
-  description: Move your app forward with the Uber API
+  title: LabAlley API
+  description: An API to navigate the alley of the labs. 
   version: "1.0.0"
 # the domain of the service
-host: api.uber.com
+host: api.laballey.com
 # array of all schemes that your API supports
 schemes:
   - https
